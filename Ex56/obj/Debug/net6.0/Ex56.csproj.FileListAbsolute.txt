@@ -1,0 +1,15 @@
+D:\Documents\Homework8\homework\Ex56\bin\Debug\net6.0\Ex56.exe
+D:\Documents\Homework8\homework\Ex56\bin\Debug\net6.0\Ex56.deps.json
+D:\Documents\Homework8\homework\Ex56\bin\Debug\net6.0\Ex56.runtimeconfig.json
+D:\Documents\Homework8\homework\Ex56\bin\Debug\net6.0\Ex56.dll
+D:\Documents\Homework8\homework\Ex56\bin\Debug\net6.0\Ex56.pdb
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.csproj.AssemblyReference.cache
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.AssemblyInfoInputs.cache
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.AssemblyInfo.cs
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.csproj.CoreCompileInputs.cache
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.dll
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\refint\Ex56.dll
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.pdb
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\Ex56.genruntimeconfig.cache
+D:\Documents\Homework8\homework\Ex56\obj\Debug\net6.0\ref\Ex56.dll
