@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\EricMorganWiess\\.nuget\\packages\\": {}
+    "C:\\Users\\АлексКэт\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Homework8\\homework\\Ex56\\Ex56.csproj",
+      "projectUniqueName": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex56\\Ex56.csproj",
       "projectName": "Ex56",
-      "projectPath": "D:\\Documents\\Homework8\\homework\\Ex56\\Ex56.csproj",
-      "packagesPath": "C:\\Users\\EricMorganWiess\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Homework8\\homework\\Ex56\\obj\\",
+      "projectPath": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex56\\Ex56.csproj",
+      "packagesPath": "C:\\Users\\АлексКэт\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex56\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\EricMorganWiess\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\АлексКэт\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

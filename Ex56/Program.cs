@@ -30,35 +30,64 @@ void PrintArray(int[,] array)
 }
 
 int[,] array = GetArray(rows, columns);
-PrintArray(array);
+int[] resultArray = new int [3];
 
-//int FindMinSumOfRow (int [,] array)
-//{
-    int sumOfRow = 0;
+void FindMinSumOfRows (int [,] array, int[] resultArray)
+{
+    
     int minSum = int.MaxValue;
-    int numberOfRow = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
+        int sumOfRow = 0;
         for (int j = 0; j < array.GetLength(1); j++)
         {
             sumOfRow = sumOfRow + array[i, j];
             
         }
-        Console.WriteLine(sumOfRow);
+        resultArray[i] = sumOfRow;
         if(minSum > sumOfRow) 
         {
             minSum = sumOfRow;
-            Console.WriteLine(minSum);
         }
-        numberOfRow ++;
     }
-    //return minSum;
+
     Console.WriteLine(minSum);
 
-//}
+}
 
-//int[,] matrix = GetArray(rows, columns);
-//PrintArray(matrix);
-//Console.WriteLine("Результат: ");
-//Console.Write($"{FindMinSumOfRow(matrix)}");
+int IndexOf(int[] collection, int find)
+{
+    int count = collection.Length;
+    int index = 0;
+    int position = -1;
+
+    while(index < count)
+    {
+        if(collection[index] == find)
+        {
+            position = index;
+            break;
+
+        }
+        index++;
+    }
+    return position;
+
+}
+
+void ToShowArray(int[] ar)
+{
+    for(int l=0; l<ar.Length-1 ;l++)
+{
+    Console.Write($"{ar[l]}" + "; ");
+}
+Console.Write($"{ar[ar.Length-1]}" + ". ");
+}
+
+int[,] matrix = GetArray(rows, columns);
+PrintArray(matrix);
+Console.WriteLine("Результат: ");
+FindMinSumOfRows(matrix, resultArray);
+ToShowArray(resultArray);
+
 
