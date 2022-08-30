@@ -28,7 +28,7 @@ void FindMinSumOfRows (int [,] array, int[] resultArray)
 {
     
     int minSum = int.MaxValue;
-    int l=0;
+    int minRow = 0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int sumOfRow = 0;
@@ -41,12 +41,12 @@ void FindMinSumOfRows (int [,] array, int[] resultArray)
         if(minSum > sumOfRow) 
         {
             minSum = sumOfRow;
-            l=i+1;
+            minRow=i+1;
         }
     }
 
     Console.WriteLine("минимальная сумма строки: " + $"{minSum}");
-    Console.WriteLine("строка, содержащая минимальную сумму: " + $"{l}");
+    Console.WriteLine("строка, содержащая минимальную сумму: " + $"{minRow}");
 
 }
 
@@ -65,7 +65,7 @@ int[] resultArray = new int [3];
 int[,] matrix = GetArray(rows, columns);
 PrintArray(matrix);
 Console.WriteLine("Результат: ");
-FindMinSumOfRows(matrix, resultArray); //,sumrow,pos);
+FindMinSumOfRows(matrix, resultArray);
 ToShowArray(resultArray);
 
 
