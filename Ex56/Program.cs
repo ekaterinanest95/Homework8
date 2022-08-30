@@ -1,8 +1,4 @@
-﻿int rows = 3;
-int columns = 4;
-
-
-int[,] GetArray(int m, int n)
+﻿int[,] GetArray(int m, int n)
 {
     int[,] array = new int[m, n];
     for (int i = 0; i < array.GetLength(0); i++)
@@ -16,7 +12,6 @@ int[,] GetArray(int m, int n)
     return array;
 }
 
-
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -29,13 +24,11 @@ void PrintArray(int[,] array)
     }
 }
 
-int[,] array = GetArray(rows, columns);
-int[] resultArray = new int [3];
-
 void FindMinSumOfRows (int [,] array, int[] resultArray)
 {
     
     int minSum = int.MaxValue;
+    int l=0;
     for (int i = 0; i < array.GetLength(0); i++)
     {
         int sumOfRow = 0;
@@ -48,30 +41,12 @@ void FindMinSumOfRows (int [,] array, int[] resultArray)
         if(minSum > sumOfRow) 
         {
             minSum = sumOfRow;
+            l=i+1;
         }
     }
 
-    Console.WriteLine(minSum);
-
-}
-
-int IndexOf(int[] collection, int find)
-{
-    int count = collection.Length;
-    int index = 0;
-    int position = -1;
-
-    while(index < count)
-    {
-        if(collection[index] == find)
-        {
-            position = index;
-            break;
-
-        }
-        index++;
-    }
-    return position;
+    Console.WriteLine("минимальная сумма строки: " + $"{minSum}");
+    Console.WriteLine("строка, содержащая минимальную сумму: " + $"{l}");
 
 }
 
@@ -84,10 +59,13 @@ void ToShowArray(int[] ar)
 Console.Write($"{ar[ar.Length-1]}" + ". ");
 }
 
+int rows = 3;
+int columns = 4;
+int[] resultArray = new int [3];
 int[,] matrix = GetArray(rows, columns);
 PrintArray(matrix);
 Console.WriteLine("Результат: ");
-FindMinSumOfRows(matrix, resultArray);
+FindMinSumOfRows(matrix, resultArray); //,sumrow,pos);
 ToShowArray(resultArray);
 
 
