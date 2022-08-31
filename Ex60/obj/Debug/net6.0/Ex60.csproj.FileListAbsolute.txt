@@ -1,0 +1,15 @@
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.csproj.AssemblyReference.cache
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.AssemblyInfoInputs.cache
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.AssemblyInfo.cs
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.csproj.CoreCompileInputs.cache
+D:\Documents\Homework8\homework\Ex60\bin\Debug\net6.0\Ex60.exe
+D:\Documents\Homework8\homework\Ex60\bin\Debug\net6.0\Ex60.deps.json
+D:\Documents\Homework8\homework\Ex60\bin\Debug\net6.0\Ex60.runtimeconfig.json
+D:\Documents\Homework8\homework\Ex60\bin\Debug\net6.0\Ex60.dll
+D:\Documents\Homework8\homework\Ex60\bin\Debug\net6.0\Ex60.pdb
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.dll
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\refint\Ex60.dll
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.pdb
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\Ex60.genruntimeconfig.cache
+D:\Documents\Homework8\homework\Ex60\obj\Debug\net6.0\ref\Ex60.dll
