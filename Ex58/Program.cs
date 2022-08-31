@@ -14,19 +14,15 @@
 
 void ProductOfArrays (int[,] ar1, int [,] ar2, int[,] resultArray)
 {
-    for (int i = 0; i < ar1.GetLength(0) - 1; i++)
+    for (int i = 0; i < ar1.GetLength(0); i++)
     {
-        int productOfElem = 0;
-        int productOfElem1 = 0;
-        for (int j = 0; j < ar1.GetLength(1) - 1; j++)
+
+        for (int j = 0; j < ar1.GetLength(1); j++)
         {
-            int k = i;
-            int l = j;
-            productOfElem = (ar1[i, j] * ar2[k, l]) + (ar1[i, j+1] * ar2[k+1, l]);
-            resultArray[i, j] = productOfElem;
-            productOfElem1 = (ar1[i, j] * ar2[k, l+1]) + (ar1[i, j+1] * ar2[k+1, l+1]);
-            resultArray[i, j+1] = productOfElem1;
-            
+            for(int k = 0; k < ar1.GetLength(1); k++)
+            {
+                resultArray[i,j]=resultArray[i,j]+(ar1[i,k]*ar2[k,j]);
+            } 
         }
     }
 } 

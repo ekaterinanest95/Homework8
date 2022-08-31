@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex58\\Ex58.csproj": {}
+    "D:\\Documents\\Homework8\\homework\\Ex58\\Ex58.csproj": {}
   },
   "projects": {
-    "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex58\\Ex58.csproj": {
+    "D:\\Documents\\Homework8\\homework\\Ex58\\Ex58.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex58\\Ex58.csproj",
+        "projectUniqueName": "D:\\Documents\\Homework8\\homework\\Ex58\\Ex58.csproj",
         "projectName": "Ex58",
-        "projectPath": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex58\\Ex58.csproj",
-        "packagesPath": "C:\\Users\\АлексКэт\\.nuget\\packages\\",
-        "outputPath": "D:\\Documents\\education_analytic\\Practise\\Homework8\\homework\\Ex58\\obj\\",
+        "projectPath": "D:\\Documents\\Homework8\\homework\\Ex58\\Ex58.csproj",
+        "packagesPath": "C:\\Users\\EricMorganWiess\\.nuget\\packages\\",
+        "outputPath": "D:\\Documents\\Homework8\\homework\\Ex58\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\АлексКэт\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\EricMorganWiess\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
